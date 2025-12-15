@@ -1,5 +1,13 @@
 # 🧝‍♀️MARS
 
+This repository contains the official implementation of the following paper:
+
+🎉🎉[ *AAAI-26* ] **MARS: Multi-Agent Adaptive Reasoning with Socratic Guidancefor Automated Prompt Optimization**  
+
+arXiv: https://arxiv.org/abs/2503.16874
+
+
+
 We propose a Multi-Agent Approach Integrating Socratic Guidance (MARS). Specifically, our multi-agent architecture autonomously plans the optimization path to mitigate uncertainty and employs a "teacher-critic-student" Socratic guidance interaction pattern to iteratively optimize the prompts while providing interpretability. 
 
 ----------------------------------------------
@@ -115,3 +123,17 @@ The Preprocess folder holds the preprocessors used in the different tasks in thi
 ### Results
 
 The best prompt for all tasks after iteration is in the ***Optimized prompt*** folder.
+
+
+
+## 📚 Citation
+
+If you find this work useful in your research, please consider citing:
+
+```bibtex
+@article{zhang2025mars,
+  title={Mars: A multi-agent framework incorporating socratic guidance for automated prompt optimization},
+  author={Zhang, Jian and Wang, Zhangqi and Zhu, Haiping and Liu, Jun and Lin, Qika and Cambria, Erik},
+  journal={arXiv preprint arXiv:2503.16874},
+  year={2025}
+}
